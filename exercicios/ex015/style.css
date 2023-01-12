@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightslategray;
+    color: white;
+    font-size: 12pt;
+    font-family: Arial;
+}
+
+h1 {
+    color: lightgreen;
+    background-color: lightskyblue;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

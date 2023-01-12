@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'dark';
+            src: url(font/mirai.otf) format(opentype);
+            font: normal 
+
+     
+            }
+        
+        @font-face {
+            font-family: 'natal';
+            src: url(font/natal.otf) format(opentype);
+            font: normal;
+            
+        }
+            
+
+
+            /*  
+                Tipos de format()
+                - opentype (otf)
+                - truetype (ttf)
+                - embedded-opentype
+                - truetype-aat (Apple Advanced Typography)
+                - svg
+        
+            */
+        
+
+        
+        body { 
+            font: 1em Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            font: normal 3em 'dark', Times, serif;
+        }
+
+        h2 {
+            font: normal 5em 'natal', Arial, serif;
+        }
+
+        p {
+            font: 1em Arial, serif, monospace;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo !</h1>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam minus, cum itaque sed dolorem praesentium. Cupiditate eligendi nostrum vel corrupti voluptatem quibusdam ducimus hic voluptate assumenda. Dicta quo cupiditate eaque!
+    </p>
+    <h2>(Natal Chegando)</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus natus praesentium sed vel iure, architecto laboriosam, quaerat fugit aperiam at unde provident placeat harum aliquid dolor dolores eveniet, exercitationem odit!
+    </p>
+    
+</body>
+</html>

@@ -128,7 +128,7 @@ main p {
 }
 
 main strong {
-    color:goldenrod;
+    color:rgba(255, 0, 0, 0.76);
     font-weight: bold;
     font-size: 18px;
    
@@ -213,7 +213,7 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
+    background-image: linear-gradient(to bottom, var(--cor1), transparent);
     padding: 3px;
 }
 

@@ -7,21 +7,60 @@
     <title>Desafio 011</title>
     <style>
         body {
+            margin: 0px;
+            padding: 0px;
+            height: 100vh;
+            position: relative;
             background-image: url(imagens/espaco.jpg);
             background-repeat: no-repeat;
             background-size: cover;
         }
 
         div#astro {
-            display: block;
-            width: 500px;
-            height: 500px;
+            position: absolute;
+            width: 400px;
+            height: 400px;
             background-image: url(imagens/astronauta.png);
             background-repeat: no-repeat;
             background-size: cover;
-            margin: auto;
-            margin-top: 150px;
-        
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+        }
+
+        header {
+            display: flex;
+            height: 15vh;
+            background-color: #010f1c65;
+            justify-content: center;
+        }
+
+        header h1 {
+            padding-top: 5px;
+            color: white;
+            font-size: 3em;
+        }
+
+        nav {
+            display: flex;
+            height: 3vh;
+            background-color: #010f1c65;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            padding: 30px;
+            margin-left: 10px;
+            text-decoration: none;
+            font-size: 2em;
+            
+        }
+
+        nav a:hover {
+           text-decoration: underline;
         }
 
       
@@ -30,9 +69,16 @@
     </style>
 </head>
 <body>
-    <div id="astro">
+    <header>
+        <h1>Desafio 011</h1>
     
-
+    </header>
+    <nav>
+        <a href="#">Curso</a>
+        <a href="#">Em</a>
+        <a href="#">Video</a>
+    </nav>
+    <div id="astro">
     </div>
 </body>
 </html>
